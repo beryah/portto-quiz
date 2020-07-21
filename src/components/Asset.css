@@ -1,0 +1,36 @@
+.wrapper {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.collectionName, .assetName {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.description {
+  margin-bottom: 60px;
+}
+
+.permalink {
+  width: fit-content;
+  display: block;
+  padding: 8px 16px;
+  border: solid lightgrey 1px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  position: fixed;
+  bottom: 12px;
+}
